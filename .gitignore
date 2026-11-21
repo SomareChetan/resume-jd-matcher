@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Large Datasets (GitHub blocks files > 100MB)
+data/*.csv
+data/hf_benchmark_pairs.json
+
+# Streamlit
+.streamlit/
+
+# Antigravity blueprint & plan documents
+ANTIGRAVITY_*.md
+
+# OS / IDE
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
